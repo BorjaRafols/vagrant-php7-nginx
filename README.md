@@ -1,0 +1,1 @@
+# vagrant-php7-nginx
