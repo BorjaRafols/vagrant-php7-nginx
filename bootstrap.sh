@@ -80,6 +80,14 @@ sudo php -r "copy('https://getcomposer.org/installer', '/tmp/composer-setup.php'
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 sudo rm -rf /tmp/composer-setup.php
 
+# GIT
+sudo apt-get install git -y
+
+# PHPUnit
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+sudo mv phpunit.phar /usr/local/bin/phpunit
+
 # Restart servers
 service nginx restart
 service php7.1-fpm restart
