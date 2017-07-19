@@ -78,7 +78,7 @@ EOF
 # Install composer
 sudo php -r "copy('https://getcomposer.org/installer', '/tmp/composer-setup.php');"
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-rm -rf /tmp/composer-setup.php
+sudo rm -rf /tmp/composer-setup.php
 
 # Restart servers
 service nginx restart

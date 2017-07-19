@@ -1,0 +1,10 @@
+{
+    "name": "borjarafols/tdd",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
